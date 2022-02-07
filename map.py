@@ -8,7 +8,7 @@ reference_antenna = "2a"
 data = pd.read_csv("./output_ata_datum.csv")
 
 
-output_file("tile.html")
+output_file("docs/index.html")
 
 tile_provider = get_provider(ESRI_IMAGERY)
 
